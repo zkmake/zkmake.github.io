@@ -1,0 +1,6 @@
+# Crawlers only read robots.txt at the host root, so the project sites under
+# zkmake.github.io/<repo>/ list their sitemaps here.
+User-agent: *
+Allow: /
+
+Sitemap: https://zkmake.github.io/three-kit/sitemap.xml
